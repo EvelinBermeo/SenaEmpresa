@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/app.js">
+    <link href = "https://fonts.googleapis.com/css2?family=Oswald:wght@400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Ejercicio 1</title>
+    <link rel="stylesheet" href="../public/css/style.css">
+    <link rel="stylesheet" href="../css/registrar.css">
+    <link rel="stylesheet" href="..icons/all.css">
+</head>
+<body>
+        <header>
+            <img src="../img/centro_user.png" alt="logo" width="270px" height="80px" class="logo-Principal">
+            <nav>
+                <input class="menu_visible" type="checkbox" id="btn-menu">
+                <label class="menu-h" for="btn-menu">&#9776</label>
+                <ul class="menu">
+                    <li><a href="index.ejs">NOSOTROS</a></li>
+                    <li><a href="index.ejs">ACERCA DE</a></li>
+                    <li><a href="index.ejs">AYUDA</a></li>
+                    <li><a href="../views/registro.ejs"><span class="registrar" >REGISTRO</span></a></li>
+                </ul>
+            </nav>
+        </header>        
+        <div class="main-content">
+            <section> <img src="../img/imgPrincipal.jpg" class="img" alt="img-principal" ></section>
+        </div><br><br>
+        <div class="main-contain">
+            <div class="articles">
+                <article class=" article box">
+                    <h3>Misión</h3>
+                    <div class="borde-inferior"></div>
+                    <img src="../img/mision.png" width="100px" height="100px" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum eius cumque nihil assumenda, unde at earum provident similique quasi placeat dolores nulla vitae! Illo, nemo.</p>
+            </article>
+                <article class=" article box2">
+                    <h3>Visión</h3>
+                    <div class="borde-inferior"></div>
+                    <img src="../img/Vision.png" width="100px" height="100px" alt="">
+                    
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum eius cumque nihil assumenda, unde at earum provident similique quasi placeat dolores nulla vitae! Illo, nemo.</p>
+                </article>
+                <article class=" article box3">
+                        <h3>Objetivos</h3>
+                        <div class="borde-inferior"></div>
+                        <img src="../img/objetivo.png" width="100px" height="100px" alt="">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum eius cumque nihil assumenda, unde at earum provident similique quasi placeat dolores nulla vitae! Illo, nemo.</p>
+                </article>
+            </div>
+        </div>
+        <form action="/menuPrincipal.ejs" method="post">
+        <fieldset>
+            <div class="icono"><img src="../img/usuario-de-perfil.png" class="redes" alt="" width="90px" height="90px"></div>
+            <h1>Iniciar/Registrar</h1>
+            <div class="box1">
+                <img src="../img/identificacion.png" class="redes" alt="" width="30px" height="30px"><input type="number" placeholder="Nombre" name="login" class="controls"><br><br>
+                 <img src="../img/sombrero.png" class="redes" alt="" width="30px" height="30px">
+                <select name="Rol" class="controls" aria-placeholder="Rol">
+                    <option value="Aprendiz">Aprendiz</option> 
+                    <option value="Instructor">Instructor</option> 
+                    <option value="Invitado">Invitado</option> </select><br><br>
+                    <img src="../img/mostrar-contrasena.png" class="redes" alt="" width="30px" height="30px"><input type="password" placeholder="Contraseña" name="password" class="controls"><br><br>       
+                 <p><img src="../img/olvido.png" class="redes" alt="" width="30px" height="30px"><a class="recuperar" href="#">¿Olvidaste tu contraseña?</a></p>
+                 <div id="submitbtn">
+                   <a href="/menuPrincipal"><input type="controls-button" class="controls-button" type="submit" value="Iniciar Sesión"></a> 
+                </div>
+            </fieldset>
+            <!-- <p><img class="img-lado" src="../img/register.jpg" alt=""></p> -->
+        </form> <br>
+
+        <footer>
+            <div class="top_pricing py-96 bg__gradient__1"><div class="container"><div class="align-items-center justify-content-center row"> 
+                <address class="propietario">
+                    <span class="icon-user"></span>Evelin Bermeo<br>  embermeo@misena.edu.co <br>
+                        <img class="logoSena" src="../img/logoSena.png" alt="" width="150px" height="150px">
+                </address> 
+                <div class="redesSociales">        
+                <a href="https://www.facebook.com/manuela.bermeocalderon" target="_blank"><img src="../img/facebook.png" class="redes" alt="" width="50px" height="50px"></a>
+                <a href="https://web.whatsapp.com/send?phone=573167390108" target="_blank" class="icon-wp" onclick="gtag('event', 'Click', {'event_category': 'Click Whatsapp Ecommerce', 'event_label': 'Click Whatsapp'})"><img src="../img/whatsapp.png" class="redes" alt="" width="50px" height="50px"></a>
+                <a href="https://www.instagram.com/evelin_bermeo/?hl=es-la"  target="_blank"><img src="../img/instagram.png" class="redes" alt="" width="50px" height="50px"></a>
+                <ul>           
+                    <li><img src="../publicimg/IconoFacebook.jpg" alt="logo" class="logo-Principal"><a href="/food"></a></li>
+                </ul>
+                </div> 
+                
+                <p>Copyright &copy; 2021 Peter Doe, todos los derechos reservados.</p>
+        </footer> 
+        <footer > 
+</body>
+</html>
+<script>s
+var myCarousel = document.querySelector('#myCarousel')
+var carousel = new bootstrap.Carousel(myCarousel)
+</script>
